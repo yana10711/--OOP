@@ -1,0 +1,6 @@
+/home/yana/Projects/Lab2OOP/Lab2OOP/obj/x86/Debug/Lab2OOP.csprojAssemblyReference.cache
+/home/yana/Projects/Lab2OOP/Lab2OOP/obj/x86/Debug/Lab2OOP.csproj.CoreCompileInputs.cache
+/home/yana/Projects/Lab2OOP/Lab2OOP/bin/Debug/Lab2OOP.exe
+/home/yana/Projects/Lab2OOP/Lab2OOP/bin/Debug/Lab2OOP.pdb
+/home/yana/Projects/Lab2OOP/Lab2OOP/obj/x86/Debug/Lab2OOP.exe
+/home/yana/Projects/Lab2OOP/Lab2OOP/obj/x86/Debug/Lab2OOP.pdb
