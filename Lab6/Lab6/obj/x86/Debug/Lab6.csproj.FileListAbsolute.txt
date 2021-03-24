@@ -1,0 +1,6 @@
+/home/yana/Projects/Lab6/Lab6/bin/Debug/Lab6.exe
+/home/yana/Projects/Lab6/Lab6/bin/Debug/Lab6.pdb
+/home/yana/Projects/Lab6/Lab6/obj/x86/Debug/Lab6.csprojAssemblyReference.cache
+/home/yana/Projects/Lab6/Lab6/obj/x86/Debug/Lab6.csproj.CoreCompileInputs.cache
+/home/yana/Projects/Lab6/Lab6/obj/x86/Debug/Lab6.exe
+/home/yana/Projects/Lab6/Lab6/obj/x86/Debug/Lab6.pdb
