@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C6D010E9-B215-4FB4-96E5-72185E738B0B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/Program.cs">
     <Files>
-      <File FileName="Lab6/Program.cs" Line="9" Column="1" />
+      <File FileName="Lab6/Program.cs" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +16,14 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Lab6 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Lab6/Program.cs" line="31" offsetX="629" offsetY="540" expression="trains.Length" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/home/yana/Projects/Lab6/Lab6/Program.cs" relfile="Lab6/Program.cs" line="32" column="18" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
