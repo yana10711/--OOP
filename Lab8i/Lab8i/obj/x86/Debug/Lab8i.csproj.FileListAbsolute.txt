@@ -1,0 +1,6 @@
+/home/yana/Projects/Lab8i/Lab8i/bin/Debug/Lab8i.exe
+/home/yana/Projects/Lab8i/Lab8i/bin/Debug/Lab8i.pdb
+/home/yana/Projects/Lab8i/Lab8i/obj/x86/Debug/Lab8i.csprojAssemblyReference.cache
+/home/yana/Projects/Lab8i/Lab8i/obj/x86/Debug/Lab8i.csproj.CoreCompileInputs.cache
+/home/yana/Projects/Lab8i/Lab8i/obj/x86/Debug/Lab8i.exe
+/home/yana/Projects/Lab8i/Lab8i/obj/x86/Debug/Lab8i.pdb
