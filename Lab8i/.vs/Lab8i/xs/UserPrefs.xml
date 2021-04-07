@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{8C865A4D-62CB-4911-AF04-10D6E6FF697F}|Default">
-  <MonoDevelop.Ide.ItemProperties.Lab8i FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Lab8i PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Lab8i/Program.cs">
     <Files>
-      <File FileName="Lab8i/Program.cs" Line="1" Column="1" />
+      <File FileName="Lab8i/Program.cs" Line="128" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
