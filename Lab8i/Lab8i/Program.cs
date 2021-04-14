@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Lab8
 {
-   
+
     class MainClass
     {
         public static void Main(string[] args)
@@ -26,34 +26,34 @@ namespace Lab8
 
                 if (equation[i].Contains("x"))
                 {
-                   string[] equation1 = equation[i].Split('*');
-                        equation1 = (from word in equation1 where word != "" select word).ToArray();
-                        for (int j = 0; j < equation1.Length; j++)
+                    string[] equation1 = equation[i].Split('*');
+                    equation1 = (from word in equation1 where word != "" select word).ToArray();
+                    for (int j = 0; j < equation1.Length; j++)
+                    {
+                        if (equation1[j] == "x")
                         {
-                            if (equation1[j] == "x")
+                            try
                             {
-                                try
-                                {
-                                    Coef.Add(double.Parse(equation1[j - 1]));
+                                Coef.Add(double.Parse(equation1[j - 1]));
 
 
-                                }
-                                catch (Exception)
-                                {
-                                    Coef.Add(1);
-
-                                }
-
-                                try
-                                {
-                                    Degr.Add(double.Parse(equation1[j + 1]));
-                                }
-                                catch (Exception)
-                                {
-
-                                    Degr.Add(1);
-                                }
                             }
+                            catch (Exception)
+                            {
+                                Coef.Add(1);
+
+                            }
+
+                            try
+                            {
+                                Degr.Add(double.Parse(equation1[j + 1]));
+                            }
+                            catch (Exception)
+                            {
+
+                                Degr.Add(1);
+                            }
+                        }
                         else if (equation1[j] == "-x")
                         {
                             Coef.Add(-1);
@@ -62,13 +62,13 @@ namespace Lab8
 
 
                         }
-                        
-                            
-                    }
+
 
                     }
-               
-                
+
+                }
+
+
 
                 else
                 {
@@ -109,7 +109,7 @@ namespace Lab8
                                 Degr1.Add(1);
                             }
                         }
-                       else  if (equation1[j] == "-x")
+                        else if (equation1[j] == "-x")
                         {
                             Coef1.Add(-1);
                             try { Degr1.Add(double.Parse(equation1[j + 1])); }
@@ -128,12 +128,12 @@ namespace Lab8
 
             }
             //Приведение подобных
-            for(int i = 0; i < Degr.Count; i++)
+            for (int i = 0; i < Degr.Count; i++)
             {
-                for(int j = i + 1; j < Degr.Count; j++)
+                for (int j = i + 1; j < Degr.Count; j++)
                 {
 
-                        if (Math.Abs(Math.Abs(Degr[i]) - Math.Abs(Degr[j])) > 0) { }
+                    if (Math.Abs(Math.Abs(Degr[i]) - Math.Abs(Degr[j])) > 0) { }
                     else
                     {
                         Coef[i] += Coef[j];
@@ -160,7 +160,7 @@ namespace Lab8
 
             if (Degr.Count == Degr1.Count)
             {
-               for(int i = 0; i < Degr.Count; i++)
+                for (int i = 0; i < Degr.Count; i++)
                 {
                     for (int j = i + 1; j < Degr.Count; j++)
                     {
@@ -197,36 +197,21 @@ namespace Lab8
 
                 for (int i = 0; i < Coef.Count; i++)
                 {
-                    try
-                    {
-                        if (Math.Abs(Math.Abs(Math.Abs(Coef[i] / Coef1[i]) - Math.Abs(Degr[i] / Degr1[i]))) > 0)
-                        {
-                            csr.WriteLine("No");
-                            return;
-                        }
-
-
-                    }
-                    catch (Exception)
+                    if (Coef[i] != Coef1[i] || Degr[i] != Degr1[i])
                     {
                         csr.WriteLine("No");
+                        csr.Close();
                         return;
                     }
                 }
-            }
-            else
-            {
-                csr.WriteLine("No");
-                return;
-            }
-            csr.WriteLine("Yes");
+                csr.WriteLine("Yes");
 
-          csr.Close();
+                csr.Close();
+            }
         }
+
     }
-
 }
-
 
         
     
