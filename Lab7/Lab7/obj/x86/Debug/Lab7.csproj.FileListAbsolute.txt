@@ -1,0 +1,6 @@
+/home/yana/Projects/Lab7/Lab7/bin/Debug/Lab7.exe
+/home/yana/Projects/Lab7/Lab7/bin/Debug/Lab7.pdb
+/home/yana/Projects/Lab7/Lab7/obj/x86/Debug/Lab7.csprojAssemblyReference.cache
+/home/yana/Projects/Lab7/Lab7/obj/x86/Debug/Lab7.csproj.CoreCompileInputs.cache
+/home/yana/Projects/Lab7/Lab7/obj/x86/Debug/Lab7.exe
+/home/yana/Projects/Lab7/Lab7/obj/x86/Debug/Lab7.pdb
